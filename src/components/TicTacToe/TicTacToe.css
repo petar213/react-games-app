@@ -1,0 +1,48 @@
+.square {
+    background: black;
+    border: 1px solid black;
+    float: left;
+    font-size: 50px;
+    font-weight: bold;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 80px;
+    line-height: 80px;
+    height: 80px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: black;
+    margin: 10px;
+    border: 1px solid black;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+/* Board */
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+/* Game */
+.game {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+/* Game Info */
+ul {
+    padding-left: 30px;
+}
+.game-info {
+    margin-left: 20px;
+}
+.status {
+    margin-bottom: 10px;
+}
+
